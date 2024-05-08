@@ -46,11 +46,13 @@ step-5 : Give inputs in the waveform table .
 step-6 : Run the program.
 
 ## PROGRAM:
-```
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
- Developed by: T.Ajay 
- Register Number: 212223230007
 
+ Program for flipflops and verify its truth table in quartus using Verilog programming.
+ 
+ Developed by: T.Ajay 
+ 
+ Register Number: 212223230007
+```
 module JKFlipflop(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
